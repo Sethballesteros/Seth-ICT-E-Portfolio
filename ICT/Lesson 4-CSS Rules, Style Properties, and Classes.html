@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lesson 4</title>
+<style>
+body {font-family: Tahoma, sans-serif;background-color: #faf5ff;margin: 20px;}
+h1 {text-align: center;color: purple;background-color: #f8bbd0;padding: 10px;border-radius: 8px;}
+h2 {color: darkslategray;margin-top: 20px;}
+div {margin-bottom: 20px;padding: 15px;background: #ffffff;border-left: 5px solid purple;border-radius: 5px;box-shadow: 0 0 5px rgba(0,0,0,0.15);}
+ul, ol {margin-left: 20px;}
+.highlight {color: white;background-color: purple;padding: 4px;}
+.note {background-color: lavender;border-left: 4px solid pink;padding: 8px;font-style: italic;}
+</style>
+</head>
+<body>
+<h1>Lesson 4 - CSS Rules and Classes</h1>
+<div>
+<h2>CSS Rule</h2>
+<p>A CSS rule has two parts: a <b>selector</b> and one or more <b>style declarations</b>.</p>
+<p><b>Inline example:</b> &lt;tag style="property:value;"&gt;</p>
+<p><b>Internal/External example:</b> selector {property:value;}</p>
+</div>
+<div>
+<h2>Style Properties</h2>
+<ul>
+<li>Fonts</li>
+<li>Colors and backgrounds</li>
+<li>Text</li>
+<li>Boxes and layout</li>
+<li>Lists</li>
+<li>Tag classifications</li>
+</ul>
+</div>
+<div>
+<h2>Classes</h2>
+<p>A <b>class</b> is a user-defined selector to apply styles to specific HTML tags. It is reusable and flexible.</p>
+<p class="highlight">This text is styled with the "highlight" class.</p>
+<p class="highlight note">This text uses two classes: highlight + note.</p>
+</div>
+<div>
+<h2>Element + Class Selector</h2>
+<p>Example: <code>p.note {color:blue; font-size:18px;}</code></p>
+<p class="note">This paragraph is styled only if it is a &lt;p&gt; with the class "note".</p>
+</div>
+<div>
+<h2>Grouping Selectors</h2>
+<p>You can group selectors with commas. Example:</p>
+<pre>h1, p {color: purple;}</pre>
+</div>
+</body>
+</html>

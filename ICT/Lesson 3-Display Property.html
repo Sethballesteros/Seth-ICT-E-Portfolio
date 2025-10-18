@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lesson 3</title>
+<style>
+body {font-family: Georgia, serif;background-color: #fff8f0;margin: 20px;}
+h1 {text-align: center;color: darkred;background-color: #ffd54f;padding: 10px;border-radius: 8px;}
+h2 {color: navy;margin-top: 20px;}
+div {margin-bottom: 20px;padding: 15px;background: #ffffff;border-left: 5px solid darkred;border-radius: 5px;box-shadow: 0 0 5px rgba(0,0,0,0.15);}
+ul, ol {margin-left: 20px;}
+</style>
+</head>
+<body>
+<h1>Lesson 3 - Inline, Internal, External CSS and Display</h1>
+<div>
+<h2>Inline Style Sheets</h2>
+<p>Inline CSS is applied directly inside an HTML element using the <code>style</code> attribute.</p>
+<p style="color: darkred; font-weight: bold;">(Inline CSS Example: This text is styled inline.)</p>
+</div>
+<div>
+<h2>Internal (Embedded) Style Sheets</h2>
+<p>Internal CSS is written inside a <code>&lt;style&gt;</code> tag in the <code>&lt;head&gt;</code> section of an HTML document. It applies styles to the entire page.</p>
+</div>
+<div>
+<h2>External Style Sheets</h2>
+<p>External CSS is stored in a separate <code>.css</code> file. It allows consistent styling across multiple pages by linking the stylesheet using <code>&lt;link&gt;</code> in the head.</p>
+</div>
+<div>
+<h2>Display Property</h2>
+<p>The <b>display</b> property controls how elements are displayed. Common values include:</p>
+<ul>
+<li><b>block</b> - elements displayed vertically (e.g., &lt;p&gt;, &lt;div&gt;)</li>
+<li><b>inline</b> - elements displayed horizontally (e.g., &lt;span&gt;, &lt;a&gt;)</li>
+<li><b>list-item</b> - displays like a list element (&lt;li&gt;)</li>
+<li><b>none</b> - hides the element completely</li>
+</ul>
+</div>
+<div>
+<h2>Block vs Inline Elements</h2>
+<p><b>Block elements</b> take up full width and start on a new line (e.g., &lt;div&gt;, &lt;p&gt;, &lt;h1&gt;).<br><b>Inline elements</b> only take up as much width as needed and stay in the same line (e.g., &lt;span&gt;, &lt;a&gt;, &lt;strong&gt;).</p>
+</div>
+<div>
+<h2>Div and Span Tags</h2>
+<p><b>&lt;div&gt;</b> is a block-level container used to group large sections of content.</p>
+<p><b>&lt;span&gt;</b> is an inline container used for small chunks of text or inline styling.</p>
+<p>Example: <div style="border:1px solid navy; padding:5px;">This is inside a div</div> <p>This is a <span style="color: gold; font-weight: bold;">span example</span> inside a paragraph.</p></p>
+</div>
+</body>
+</html>
